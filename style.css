@@ -1,0 +1,330 @@
+body{
+margin: 0;
+padding: 0;
+font-family: "Shippori Mincho",serif;
+font-size: 16px;
+line-height: 1.5;
+}
+
+*{
+text-decoration: none;
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+
+}
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+opacity: 0.2;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.block{
+    text-align: center;
+}
+
+.page-header,
+.page-hero,
+.page-content,
+.page-footer{
+    min-width: 1280px;
+    width: 100%;
+}
+.page-header{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 16px 0 24px;
+    background-color: #fff;
+}
+
+.page-header__inner,
+.page-content__inner{
+    box-sizing: content-box;
+}
+
+.page-header{
+    border-top: solid 4px #7f9916;
+}
+.page-header__inner{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.page-header .logo,
+.page-footer .logo{
+width: 256px;
+}
+.sns-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sns-list__item{
+    width: 24px;
+}
+.sns-list__item:not(:first-child) {
+margin-left: 16px;
+}
+.page-header__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.global-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.global-nav > .sns-list{
+    margin-left: 64px;
+}
+
+.global-nav > .link-button{
+    margin-left: 64px;
+}
+
+.link-button{
+    display: table;
+    width: 140px;
+}
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-list__item{
+    
+    padding: 5px;
+}
+
+.midasi{
+    text-align: center;
+    border-bottom: solid 2px #7f9916;
+    width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+    padding-top: 40px;
+}
+
+.st{
+    display: flex;
+    justify-content: center;
+    max-width: 954px;
+    margin: 0 auto; 
+    
+    
+}
+.st img {
+    padding: 35px;
+}
+
+.st h3{
+    text-align: center;
+}
+
+.st p{
+    text-align: center;
+}
+
+.jisseki{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    margin: 0 auto;
+    
+}
+
+.jisseki h3{
+    text-align: left;
+    padding: 5px 10px 5px 20px; /*上 右 下 左*/
+}
+
+.jisseki p{
+    text-align: left;
+    padding: 5px 10px 5px 20px;
+}
+
+.jisseki img{
+    padding:  30px 10px 15px 20px;
+}
+
+.ji{
+    width: 40%;
+}
+
+
+.hiyou{
+    display: flex;
+    justify-content: center;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.hiyou h3{
+    text-align: center;
+    padding: 5px 10px 5px 5px
+}
+
+.hiyou p{
+    text-align: center;
+    padding: 5px 10px 5px 5px
+}
+
+.hiyou img{
+    padding: 15px 10px 5px 5px
+}
+
+.koe{
+    padding: 40px;
+    
+    
+}
+
+.koe-line{
+    border: 1px solid #7f9916;
+    margin-top: 20px;
+    max-width: 680px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.koe-block{
+    padding: 16px;
+}
+
+
+.koe-line p{
+padding: 48px 24px;
+}
+
+.koe img{
+    margin: 40px 24px;
+    width: 94px;
+    height: 94px;
+}
+
+.mitumori-png{
+    padding:  50px;
+
+}
+
+.gaiyou{
+    padding: 50px;
+
+}
+
+.gaiyou dt{
+   float: left;
+}
+dt::after{
+    content: ":";
+}
+
+.gaiyou dd{
+   display: flex;
+}
+
+.kaisya{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: 40px auto;
+    
+}
+
+.google{
+width: 542px;
+height: 440px;
+}
+
+
+.mitumori-end{
+    padding: 100px;
+}
+
+.inf-png{
+    padding:  20px; 
+}
+
+.menu-list__item:not(:first-child) {
+    margin-left: 24px;
+  }
+  .menu-list__item a {
+    color: #000;
+    font-weight: 700;
+  }
+.page-footer {
+    margin-top: 120px;
+  }
+  
+  .page-footer {
+    background-color: #e9f8ad;
+    border-bottom: solid 4px #7f9916;
+  }
+  .page-footer__inner {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 24px 56px;
+  }
+.footer-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .footer-data-address {
+    margin-top: 8px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  .footer-column__item > .sns-list {
+    margin-top: 24px;
+  }
+  .footer-column__item > .sns-list > .sns-list__item {
+    width: 45px;
+  }
+  .footer-copy {
+    font-size: 12px;
+  }   
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+ 
+@media all and (max-width: 480px) {
+    .feature-list {
+        flex-direction: column;
+        height: 100%;
+ 
+    }
+    .feature-list__item  {
+        margin: 0 auto 48px;
+    }
+
+    .feature-list__item h3{
+        margin-top: 16px;
+    }
+    .inf-png{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .global-nav{
+        display: none;
+    }
+}
